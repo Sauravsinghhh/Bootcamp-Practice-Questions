@@ -19,3 +19,4 @@ circle_area = Calculate_area("circle", (4,))
 
 print(f"Rectangle area: {rectangle_area}")
 print(f"Circle area: {circle_area}")
+print("This is successfull")
