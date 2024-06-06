@@ -1,0 +1,14 @@
+def is_jicky_number(number):
+    number_str = str(number)
+    
+    digit_sum = sum(int(digit) for digit in number_str)
+    
+    if number % len(number_str) == 0 or number % digit_sum == 0:
+        return True
+    else:
+        return False
+num = 12
+if is_jicky_number(num):
+    print(num, "is a Jicky number")
+else:
+    print(num, "is not a Jicky number")
